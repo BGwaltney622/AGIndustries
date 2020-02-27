@@ -99,6 +99,11 @@ footer {
     padding-right: 20%;
 }
 
+.hub a {
+    color: var(--light);
+    text-decoration: underline;
+}
+
 .links {
     text-align: center;
     padding-left: 20%;

@@ -80,21 +80,25 @@ img {
 .phone-email {
     background: var(--dark);
     box-shadow: var(--shadow);
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(2, 1fr);
+    color: var(--light);
     padding: 3rem;
 }
 
-.phone h4 {
-    color: var(--light);
+.owner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: .8em;
     text-align: center;
 }
 
-.email h4 {
-    color: var(--light);
-    text-align: center;
+.owner p {
+    margin: .5em 0;
 }
+
+.owner-1 {
+    border-right: 1px solid var(--light);
+}
+
 
 /* Footer */
 footer {
@@ -111,6 +115,11 @@ footer {
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.hub a {
+    color: var(--light);
+    text-decoration: underline;
 }
 
 .links {
