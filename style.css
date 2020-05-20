@@ -93,7 +93,7 @@ img {
 }
 
 .showcase p {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     margin-top: 1rem;
     color: var(--light);
     line-height: 1.1em;
@@ -145,6 +145,10 @@ img {
     grid-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
+}
+
+.info .btn {
+    line-height: 3rem;
 }
 
 /* Footer */
